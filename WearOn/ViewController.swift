@@ -168,6 +168,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 //                    print("changed! \(userInfo)")
                     print("ok")
                     nemeAccessPlaySound(name: "EyePower")
+                    audioPlayer.volume -= 0.1
                     
                 }
             }
