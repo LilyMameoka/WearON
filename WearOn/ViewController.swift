@@ -179,6 +179,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        nemeAccessPlaySound(name: "0001")
+        
         modeChoice.frame = CGRect(x: 51, y: 300, width: 732, height: 70)
         shakeChoice.frame = CGRect(x: 238 , y: 112, width: 227, height: 50)
         modeChoice.tintColor = UIColor(red: 113/255, green: 243/255, blue: 73/255, alpha: 1)
